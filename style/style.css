@@ -1,9 +1,11 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
 }
+/* style for the hero section */
 .hero{
     background-color: #1f2937;
     display: flex;
@@ -63,4 +65,34 @@
     width: 15rem;
     height: 10rem;
     border-radius: 4px;
+}
+/* style for info section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.info{
+    display: flex;
+    position: relative;
+    gap: 3rem;
+}
+.info-item > img{
+    border: 0.1875rem solid #2343f5;
+    width: 15em;
+    height: auto;
+    border-radius: 10px;
+}
+.info-item > p{
+    color: black;
+    text-align: center;
+}
+.information>h1{
+    font-size: 2.25rem;
+    color: #1f2937;
+    font-weight: bolder;
+    padding: 2rem;
 }
