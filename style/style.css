@@ -96,3 +96,28 @@
     font-weight: bolder;
     padding: 2rem;
 }
+/* style for quote section */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 30%
+}
+.quote p{
+  color: #1f2937;
+  text-align: justify;
+  padding: 50px 150px;
+  font-size: 36px;
+}
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    display: flex;
+    background-color: #3882f6;
+}
