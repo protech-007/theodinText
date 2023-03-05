@@ -102,7 +102,8 @@
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    height: 30%
+    height: 30%;
+    margin-top: 80px;
 }
 .quote p{
   color: #1f2937;
@@ -111,13 +112,39 @@
   font-size: 36px;
 }
 .callToAction{
-    display: flex;
-    flex-direction: column;
+    position: relative;
     height: 200px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 .call{
-    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #3882f6;
+    width: 50%;
+    border-radius: 0.375em;
+}
+.call h3{
+   color: #F9FAF8;
+   padding-left: 130px;
+   padding-top: 7px;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+
+}
+.action p{
+    color: #F9FAF8;
+    padding: 10px;
+    font-size: 11px;
+}
+.action input{
+    border: solid 1px #F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    height: 23px;
+    padding: 3px;
 }
