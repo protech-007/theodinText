@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 /* style for the hero section */
 .hero{
@@ -147,4 +146,15 @@
     border-radius: 5px;
     height: 23px;
     padding: 3px;
+}
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: -50%;
+    display: flex;
+}
+.footer span{
+    color: #F9FAF8;
+    margin: 20px auto;
 }
