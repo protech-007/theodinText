@@ -78,6 +78,7 @@
     display: flex;
     position: relative;
     gap: 3rem;
+    flex-flow: wrap;
 }
 .info-item > img{
     border: 0.1875rem solid #2343f5;
