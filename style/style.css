@@ -26,7 +26,7 @@
     position: relative;
 }
 .link , a{
-    text-decoration: non;
+    text-decoration: none;
     color: #E5E7EB;
     position: relative;
     gap: 1rem;
@@ -158,4 +158,67 @@
 .footer span{
     color: #F9FAF8;
     margin: 20px auto;
+}
+@media screen and (max-width:500px){
+    .link{
+    display: none;
+    }
+    .hero-head>h1{
+    font-size: 1rem;
+    text-align: end;
+    }#sub , h2{
+        font-size: 18px;
+        color: #F9FAF8;
+        margin-bottom: 18px;
+    }
+    #hero , img{
+    width: 5rem;
+    height: auto;
+    border-radius: 4px;
+    position: relative;
+    right: 0%;
+    margin-right: 20px;
+    }
+    #sub , p{
+    color: #E5E7EB;
+    font-size: 10px;
+    margin-bottom: 20px;
+    }
+    .sub-hero{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 40px;
+    margin-bottom: 2rem;
+    }
+    .information>h1{
+        font-size: 1.3rem;
+   
+    }
+    .info{
+        justify-content: center;
+    }
+    .info-item > img{
+        width: 10em;
+        height: auto;
+    }
+    .quote{
+        background-color: #E5E7EB;
+        margin-top: 50px;
+    }
+    .quote p{
+        color: #1f2937;
+        text-align: justify;
+        padding: 50px 90px;
+        font-size: 20px;
+    }
+    .call h3{
+   color: #F9FAF8;
+   text-align: center;
+   padding: 5px;
+    }
+
+.action {
+    padding: 7px;
+    }
 }
