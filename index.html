@@ -5,53 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>theodinproject</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <header class="hero">
-        <nav class="hero-head">
-            <h1>Header logo</h1>
-            <div class="link">
-                <a href="#">About</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </div>
+    <header class="header">
+        <nav class="container" id="header">
+            <img class="bird"src="images/dove.png" alt="">
+            <ul class="nav-bar">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
         </nav>
-        <section class="sub-hero">
-            <div id="sub">
-                <h2>This website is awesome</h2>
+        <section class="container" id="hero">
+            <div class="sub-hero">
+                <h2>This website <br> is  awesome</h2>
                 <p>this website has some subtext that goes here under the<br>main title. its a smaller font and the color is lower</p>
-                <input type="button" value="sign up">
+                <input class="button" type="button" value="sign up">
             </div>
-            <div id="hero">
-                <img src="img0.jpg" alt="bird">
+            <div class="sub-hero-logo">
+                <img class="logo" src="images/img0.jpg" alt="bird">
             </div>
         </section>
     </header>
     <main>
-        <section class="information">
-            <h1>Some random information.</h1>
-            <div class="info">
-                <div class="info-item">
-                    <img src="Images/img1.jpg" alt="black bird">
+        <section class="hero">
+            <h1>Bird Display</h1>
+            <div class="container">
+                <div class="hero-item" id="item">
+                    <img class="hero-pic" src="images/img1.jpg" alt="black bird">
                     <p>This is some sub text under<br>an illusion or image</p>
                 </div>
-                <div class="info-item">
-                    <img src="Images/img2.jpg" alt="gray bird">
+                <div class="hero-item">
+                    <img class="hero-pic" src="images/img2.jpg" alt="gray bird">
                     <p>This is some sub text under<br> an illusion or image</p>
                 </div>
-                <div class="info-item">
-                    <img src="Images/img3.jpg" alt="white bird">
+                <div class="hero-item">
+                    <img class="hero-pic" src="images/img3.jpg" alt="white bird">
                     <p>This is some sub text under<br> an illusion or image</p>
                 </div>
-                 <div class="info-item">
-                    <img src="Images/img4.jpg" alt="blue bird">
+                 <div class="hero-item">
+                    <img class="hero-pic" src="images/img4.jpg" alt="blue bird">
                     <p>This is some sub text under<br> an illusion  or image</p>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="quote">
+        <section class="quote">
+            <div class="container">
                 <p>
                     <i>There are more words coming out from nature than man itself, and this is what makes mother nature 
                     a teacher sent by God.never the less man's pride won't let him believe the sender.The best quotes
@@ -62,17 +68,19 @@
             </div>
         </section>
         <section class="callToAction">
-            <div class="call">
-                <h3>Call to action !!</h3>
+            <div class="container" id="action">
                 <div class="action">
+                    <h3>Call to action !!</h3>
                     <p>Sign up for our product here</p>
-                    <input type="button" value="sign up">
+                </div>
+                <div class="act">
+                    <input class="button" type="button" value="sign up">
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <span>&copy;theodintest2023</span>
-        </footer>
     </main>
+    <footer class="footer">
+        <span>&copy;theodintest2023</span>
+    </footer>
 </body>
 </html>

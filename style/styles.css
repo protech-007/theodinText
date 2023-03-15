@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 16px;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 auto;
+}
+.header, .footer{
+    background-color: #1f2937;
+    color: #f9faf9;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.header .bird{
+    width: 3.125rem;
+    height: auto;
+    color: #f9faf9;
+}
+/* nav bar section */
+.nav-bar{
+    display: flex;
+}
+.nav-bar a{
+    margin-left: 20px;
+    color: #f9faf9;
+    text-decoration: none;
+}
+.nav-bar li{
+    list-style-type: none;
+}
+/* sub hero section */
+.sub-hero h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    /* border: 2px solid white; */
+    line-height: 3rem;
+}
+.sub-hero p{
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+.logo{
+    height: 9.375rem;
+    border-radius: 5%;
+}
+.hero .container{
+    flex-wrap: wrap;
+}
+.button{
+    background-color: #3882f6;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10%;
+    color: #f9faf9;
+}
+/* hero*/
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.hero-pic{
+    border: 2px solid #3882f6;
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 1.875rem;
+}
+.hero>h1{
+    text-align: center;
+    color: #1f2936;
+    font-size: 2.25rem;
+    margin-bottom: 1.875rem;
+}
+.hero-item p{
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1.875rem;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 250px;
+}
+.quote p{
+    text-align: justify;
+}
+.callToAction{
+    margin: 10% auto;
+    width: 50%;
+    background-color: #3882f6;
+    color: #f9faf9;
+    border-radius: 10px;
+}
+.action h3{
+    margin: 0.3125 0;
+    font-size: 1rem;
+}
+.action p{
+    font-size: 0.7rem;
+}
+.container .act{
+    border: 1px solid #f9faf9;
+    border-radius: 0.3125rem;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* media queries for x-small device*/
+
+@media screen and (min-width:412px) {
+    #hero{
+        flex-direction: row;
+        position: relative;
+        align-items: start;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .sub-hero h2{
+        font-size: 2.4rem;
+    }
+    .sub-hero{
+        padding-bottom: 2rem;
+    }
+    .hero h1{
+        padding-right: 2rem;
+    }
+    .hero-item p{
+        margin-bottom: 2rem;
+    }
+    #action{
+        max-width: 99%;
+    }
+    .act{
+        margin-left: 0.1rem;
+    }
+}
+
+/* media query for small device */
+
+@media screen and (min-width:576px) {
+    .logo{
+        margin-left: 3.5rem;
+        margin-bottom: 1.875rem;
+    }
+    #hero{
+        flex-direction: row;
+    }
+    .container{
+        justify-content: center;
+        position: relative;
+        
+    }
+    .bird{
+        position: absolute;
+        left: 0;
+        margin-top: 2rem;
+        margin-left: 1rem;
+      
+    }
+    .sub-hero{
+        padding: 2rem 0; 
+    }
+    
+}
+
